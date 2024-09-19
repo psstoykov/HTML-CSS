@@ -1,0 +1,30 @@
+h1 {
+    color: wheat;
+}
+
+p {
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: aquamarine;
+}
+
+#main-title {
+    color: rgb(187, 30, 164);
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+ul {
+    list-style-type: circle;
+}
+li {
+    color: pink;
+}
+
+div {
+    background-color: beige;
+}

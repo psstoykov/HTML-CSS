@@ -1,0 +1,25 @@
+div .highlight-paragraph {
+    color: rgb(44, 163, 241);
+    font-size: 20px;
+}
+div #special-content {
+    background-color: orange;
+    padding: 5px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+div a .blue-text {
+}
+
+.softuni-link {
+    color: orange;
+    text-decoration: underline;
+}
+
+.item3 {
+    font-style: italic;
+    color: red;
+}
