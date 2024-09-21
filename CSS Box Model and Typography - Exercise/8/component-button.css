@@ -1,0 +1,36 @@
+.grey {
+    background: #e6e6e6;
+    padding: 15px;
+}
+
+.orange {
+    background: #ff9c21;
+    padding: 15px;
+}
+
+.yellow {
+    background: #f9f9ce;
+    padding: 15px;
+}
+
+.transparent {
+    padding: 15px;
+}
+
+a {
+    border: 1px solid #e6e6e6;
+    text-decoration: none;
+    margin: 5px;
+    color: inherit;
+}
+
+button {
+    font-size: inherit;
+    border: 1px solid #e6e6e6;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.transparent {
+    background: none;
+}

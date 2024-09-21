@@ -1,0 +1,18 @@
+main {
+    border: 1px solid silver;
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.underline {
+    border-bottom: 1px solid silver;
+}
+
+summary {
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+}
+p {
+    margin: 10px;
+}

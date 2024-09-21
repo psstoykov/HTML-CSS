@@ -1,0 +1,50 @@
+body {
+    background: #e6e6e6;
+}
+
+.card {
+    width: 30%;
+    margin: 30px auto;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    background: white;
+}
+
+.img-containter img {
+    width: 100%;
+}
+
+body a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main-containter h2 {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.main-containter {
+    padding: 20px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.f-bold {
+    font-weight: 600;
+}
+.f-italic {
+    font-style: italic;
+}
+
+.limit-lines {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
