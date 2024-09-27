@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #eee;
+}
+.container {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    margin: 25% auto;
+    padding: 30px;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list {
+    padding-left: 15px;
+}
+
+p,
+li {
+    font-size: 0.8rem;
+}

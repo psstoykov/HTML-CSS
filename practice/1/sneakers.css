@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 40px auto;
+    border: 4px solid black;
+}
+
+.main-header {
+    background: #eee;
+    flex: 1 1 auto;
+}
+h2 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    gap: 20px;
+}
+
+.picture {
+    width: calc(100% / 3);
+    display: flex;
+}
+
+.info {
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.small-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.price {
+    font-weight: 900;
+    flex: 1 1 auto;
+}
+
+.shipping {
+    flex: 1 1 auto;
+    opacity: 0.5;
+}
+
+.text {
+    /* font-size: 0.8rem; */
+    font-weight: 500;
+}
+
+.more-info,
+i {
+    text-decoration: underline;
+}
+
+.colours {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+    gap: 10px;
+}
+
+.black {
+    background: black;
+    width: 20px;
+    height: 20px;
+}
+.blue {
+    background: blue;
+    width: 20px;
+    height: 20px;
+}
+
+.red {
+    background: red;
+    width: 20px;
+    height: 20px;
+}
+
+.yellow {
+    background: yellow;
+    width: 20px;
+    height: 20px;
+}
+
+.green {
+    background: green;
+    width: 20px;
+    height: 20px;
+}
+
+.brown {
+    background: brown;
+    width: 20px;
+    height: 20px;
+}
+footer {
+    background: black;
+    flex: 1 1 auto;
+    color: rgb(205, 205, 205);
+    text-align: center;
+    padding: 5px;
+}
