@@ -1,0 +1,51 @@
+body {
+    background: #eee;
+}
+
+.flex-container {
+    display: flex;
+    width: auto;
+    height: 320px;
+    background: white;
+    margin: 25px 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.title {
+    width: 50%;
+    align-self: center;
+}
+.subtitle {
+    color: #8a8a8a;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: space-around;
+}
+
+h3 {
+    margin: 5px 0px;
+    text-align: left;
+}
+p {
+    margin: 0px;
+}
+
+footer {
+    width: 70%;
+    font-size: 0.8em;
+    align-self: center;
+    color: #8a8a8a;
+}
+
+.main-p {
+    text-align: left;
+    padding: 5px 0px;
+    font-size: 0.8rem;
+}

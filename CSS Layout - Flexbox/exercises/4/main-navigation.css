@@ -1,0 +1,26 @@
+.nav-container {
+    background: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    width: 95%;
+    margin: 20px auto;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: 1px solid #cacaca;
+}
+
+.button {
+    padding: 5px 10px;
+    background: white;
+    margin: 5px;
+    border: 1px solid #cacaca;
+}
+
+a {
+    color: #ff9022;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: cente;
+}
